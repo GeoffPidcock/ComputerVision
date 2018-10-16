@@ -14,7 +14,7 @@ import scipy.misc
 import skimage.transform
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from .utils import cwd, download_if_not_exists
+from utils import cwd, download_if_not_exists
 
 
 cimage = cwd+"images/louvre_small.jpg"
